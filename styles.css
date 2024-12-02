@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.modak-regular {
+    font-family: "Modak", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.chewy-regular {
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+} 
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+  
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+  
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+  
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+  
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+  
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+  
+.title-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.title-text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+nav{
+    font-size: large;
+    font-family: "Modak", serif;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p{
+    font-family: "Roboto";
+}
+h1{
+    font-family: "Chewy", system-ui;
+    text-align: center;
+    text-size-adjust: 100x;
+    font-size: 5em; 
+}
+h2{
+    font-size: 5em;
+}
+h3{
+    font-family: "Chewy", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 2px solid #FF6961;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+h4{
+    font-family: "Chewy", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 2px solid #FF6961;
+    border-top: 2px solid #FF6961;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+ol li{
+    list-style: none;
+  }
+  
+.about-container, .contact-container, .overview-container, .baking-container, .sales-container, .registry-container, .charity-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 35px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #a8433e;
+    border-left:  2px solid #a8433e;
+}
+.event-container{
+    max-width: 80%;
+    margin: 35px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #a8433e;
+    border-left:  2px solid #a8433e;
+}
+.subheader{
+    justify-content: center;
+    text-align: center;
+    font-family: "Chewy";
+}
+.about-text{
+    flex: 1;
+    text-align: left;
+    max-width: 40%;
+}
+.about-image{
+    border-radius: 6px;
+    transform: translate(60%, -120%);
+    size-adjust: 20%;
+}
+.registry-text{
+    text-align: center;
+}
+.event-text{
+    text-align: left;
+    width: 40%;
+}
+body {
+    color: #333;
+    line-height: 1.6;
+    background-color: #fddddd;
+}
+.event-list-section h3, .price-list-section h3{
+    font-family: "Chewy", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 2px solid #FF6961;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.event-list-section{
+    max-width: 55.5%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transform: translate(40%, -50%);
+} 
+.price-list-section{
+    max-width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #a8433e;
+    border-left:  2px solid #a8433e;
+    list-style: none;
+} 
+
+.event-list-section h2 , .price-list-section h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #fddddd;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #FFD369;
+    padding-bottom: 10px;
+}
+
+.fancy-event-list {
+    padding: 0;               
+    list-style-type: none;    
+    width: 100%;   
+    list-style: none;           
+}
+
+/* Styling for each button inside list items */
+.fancy-event-list li .event-button , .fancy-price-list .price-button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;            /* Enable flexbox for alignment */
+    justify-content: space-between; /* Space out items evenly */
+    width: 100%;              /* Full width of its parent */
+    padding: 15px;            /* Padding for better click area */
+    margin: 10px 0;           /* Vertical spacing between buttons */
+    border-radius: 5px;       /* Rounded corners */
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333;              /* Text color */
+    text-decoration: none;     /* No underline */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+/* Hover Effect for List Items */
+.fancy-event-list li:hover .event-button {
+    font-family: "Roboto" , sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #fddddd; /* Green highlight on hover */
+    transform: translateX(5px); /* Move slightly to the right on hover */
+} 
+.unready-button {
+    font-family: "Roboto" , sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between; /* Space out items evenly */
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #e0e0e0; /* Light gray */
+    color: #999; /* Gray text */
+    text-decoration: none;
+    cursor: not-allowed; /* Show not-allowed cursor */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.unready-button:hover {
+    background-color: #d1d1d1; /* Slightly darker gray on hover */
+}
